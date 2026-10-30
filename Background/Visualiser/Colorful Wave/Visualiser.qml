@@ -76,8 +76,8 @@ Item {
 cava -p /dev/stdin <<EOF
 [general]
 # Reduced to 20 for wider, smoother hills
-bars = 40
-framerate = 60
+bars = 80
+framerate = 45
 autosens = 1
 
 [input]
@@ -150,8 +150,8 @@ EOF
             // changes those color however you want, im too lazy to make something like a GUI im sorry :(
             var firstColor = Qt.alpha(Colours.palette.m3background, 1)
             var secondColor = Qt.alpha(Colours.palette.m3background, 1)
-            var thirdColor = Qt.alpha(Colours.palette.m3background, 1)
-            var fourthColor = Qt.alpha(Colours.palette.m3background, 1)
+            var thirdColor = Qt.alpha(Colours.palette.m3primary, 1)
+            var fourthColor = Qt.alpha(Colours.palette.m3secondary, 1)
             gradient.addColorStop(0.0, firstColor)
             gradient.addColorStop(0.3, secondColor)
             gradient.addColorStop(0.6, thirdColor)

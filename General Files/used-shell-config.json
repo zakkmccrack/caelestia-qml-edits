@@ -1,0 +1,60 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "bar": {
+        "statusIcons": [
+            {
+                "enabled": true,
+                "id": "lockStatus"
+            },
+            {
+                "enabled": true,
+                "id": "audio"
+            },
+            {
+                "enabled": true,
+                "id": "microphone"
+            },
+            {
+                "enabled": false,
+                "id": "kbLayout"
+            },
+            {
+                "enabled": true,
+                "id": "network"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "battery"
+            }
+        ]
+    },
+    "launcher": {
+        "favouriteApps": [
+            "com.microsoft.VSCode",
+            "equibop",
+            "firefox",
+            "org.gnome.Nautilus"
+        ],
+        "hiddenApps": []
+    },
+    "background": {
+        "enabled": true,
+        "wallpaperEnabled": true,
+        "visualiser": {
+            "enabled": true,
+            "autoHide": false,
+            "blur": false
+        }
+    },
+    "utilities": {
+        "enabled": true
+    }
+}
