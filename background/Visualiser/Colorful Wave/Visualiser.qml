@@ -45,8 +45,9 @@ Item {
         }
         PanelWindow {
             id: panelWindow
+            screen: root.screen
             implicitHeight: 200
-            visible: true
+            visible: root.shouldBeActive
             color: "transparent"
             WlrLayershell.layer: WlrLayer.Bottom
             exclusionMode: ExclusionMode.Normal
