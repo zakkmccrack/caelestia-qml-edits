@@ -1,7 +1,18 @@
 {
     "appearance": {
         "transparency": {
-            "enabled": true
+            "enabled": true,
+            "base": 0.8,
+            "layers": 0.1
+        },
+        "rounding": {
+            "scale": 0
+        },
+        "spacing": {
+            "scale": 1
+        },
+        "padding": {
+            "scale": 1
         }
     },
     "bar": {
@@ -35,6 +46,11 @@
                 "id": "battery"
             }
         ]
+    },
+    "border": {
+        "thickness": 10,
+        "rounding": 0,
+        "smoothing": 0
     },
     "launcher": {
         "favouriteApps": [
